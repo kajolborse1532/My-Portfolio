@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import emailjs from 'emailjs-com';
 import TrackVisibility from 'react-on-screen';
-import contactImg from '../assets/img/contact-img.svg';
+import contactImg from '../assets/img/contact.png';
 
 const Contacts = () => {
   const [firstname, setFirstName] = useState('');
@@ -13,10 +13,11 @@ const Contacts = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    const serviceId = 'service_88cf1tl'; // Replace with your actual service ID
-    const templateId = 'template_ae9kqih'; // Replace with your actual template ID
-    const publicKey = 'tFNs-NgyqGytRWEvD'; // Replace with your actual public key
+      
+    
+    const serviceId = 'service_q24so7n'; // Replace with your actual service ID
+    const templateId = 'template_9ldacji'; // Replace with your actual template ID
+    const publicKey = 'Dw9vclJDhsWISGNvn'; // Replace with your actual public key
 
     const templateParams = {
       from_firstname: firstname,
@@ -44,7 +45,7 @@ const Contacts = () => {
     <section className="contact" id="connect">
       <Container>
         <Row className="align-items-center">
-          <Col size={12} md={6}>
+          <Col className="align-item-center2" size={12} md={6}>
             <TrackVisibility>
               {({ isVisible }) => (
                 <img className={isVisible ? "animate__animated animate__zoomIn" : ""} src={contactImg} alt="Contact Us" />

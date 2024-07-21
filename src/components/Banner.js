@@ -61,7 +61,7 @@ export const Banner = () => {
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <span className="tagline">Welcome to my Portfolio</span>
                   <h1>
-  {`Hi! I'm Nisarga`}{" "}
+  {`Hi! I'm Kajol`}{" "}
   <span
   className="txt-rotate animate__animated animate__fadeIn" // Add CSS animation class
   dataPeriod="300"
@@ -77,7 +77,7 @@ export const Banner = () => {
                     development of innovative software
                     solutions. Versatile Java Developer
                     creative web app builder, skilled
-                    presenter, and growing interest in DSA.</p>
+                    presenter, and growing interest in Software Testing</p>
                   {/* <button onClick={() => contact}>Let’s Connect <ArrowRightCircle size={25} onClick={contact} /></button> */}
                 </div>}
             </TrackVisibility>

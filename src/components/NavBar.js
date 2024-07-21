@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import logo from '../assets/img/logozi.png';
+import logo from '../assets/img/logozi1.JPG';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
@@ -38,7 +38,7 @@ export const NavBar = () => {
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
           <Navbar.Brand href="/">
-            <img src={logo} alt="Logo" width='1000'/>
+            <img src={logo} alt="Logo" width='1000' />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
@@ -51,9 +51,9 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://www.linkedin.com/in/nisarga-jamdhare/"><img src={navIcon1} alt="" /></a>
-                <a href="https://github.com/nisargjamdhare"><img src={navIcon2} alt="" /></a>
-                <a href="https://www.hackerrank.com/profile/nisarga_v_jamdh1"><img src={navIcon3} alt="" /></a>
+                <a href="https://www.linkedin.com/in/kajol-borse-b11999220/"><img src={navIcon1} alt="" /></a>
+                <a href="https://github.com/kajolborse1532"><img src={navIcon2} alt="" /></a>
+                <a href="https://www.hackerrank.com/profile/kajolborse"><img src={navIcon3} alt="" /></a>
               </div>
               <HashLink to='#connect'>
   <button className="vvd shared-button">

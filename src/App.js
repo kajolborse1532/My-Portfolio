@@ -9,6 +9,7 @@ import { Projects } from "./components/Projects";
 import Footer from "./components/Footer";
 import NavBar from './components/NavBar';
 import Contacts from "./components/Contacts";
+import { MailchimpForm } from './components/MailchimpForm';
 
 function App() {
   return (

@@ -1,48 +1,52 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/p1.png";
-import projImg2 from "../assets/img/p11.png";
-import projImg3 from "../assets/img/p2.png";
-import projImg4 from "../assets/img/p22.png";
+import projImg1 from "../assets/img/p1.JPG";
+import projImg2 from "../assets/img/p11.JPG";
+import projImg3 from "../assets/img/p2.JPG";
+import projImg4 from "../assets/img/p22.JPG";
 import projImg5 from "../assets/img/p3.png";
 import projImg6 from "../assets/img/p33.png";
-import colorSharp2 from "../assets/img/color-sharp2.png";
+import colorSharp2 from "../assets/img/color-sharp2.png"; 
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import { Link } from "react-router-dom";
 
 export const Projects = () => {
 
   const projects = [
     {
-      title: "Food Ordering Website",
-      description: "PHP & MYSQL",
+      title: "Food Hub Website",
+      description: "HTLM, CSS, JS",
       imgUrl: projImg1,
+
     },
     {
-      title: "Traveller Website",
-      description: "HTML5 & CSS3",
+      title: "Coaching Classes Website",
+      description: "react, Spring-Boot, Mysql",
       imgUrl: projImg3,
+      
     },
     {
-      title: "EXPENCE TRACKER",
-      description: "REACT & SPRING BOOT",
+      title: " Quiz Application",
+      description: "HTLM, CSS, JS",
       imgUrl: projImg5,
     },
     {
-      title: "Food Ordering Website",
-      description: "PHP & MYSQL",
+      title: "Food Hub Website",
+      description: "HTLM, CSS, JS",
       imgUrl: projImg2,
     },
     {
-      title: "Traveller Website",
-      description: "HTML5 & CSS3",
+      title: " Coaching Classes Website",
+      description: "react, Spring-Boot, Mysql",
       imgUrl: projImg4,
     },
     {
-      title: "EXPENCE TRACKER",
-      description: "REACT & SPRING BOOT",
+      title: "Quiz Application",
+      description: "HTLM, CSS, JS",
       imgUrl: projImg6,
     },
+    
   ];
 
   return (
@@ -82,11 +86,11 @@ export const Projects = () => {
                         }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="section">
+                    <Tab.Pane eventKey="second">
                       <p>Project is a showcase of skills that you have learned </p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p></p>
+                      <p> </p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
